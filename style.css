@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-negro: #d6d6d6;
+  --color-blanco: #000;
+  --color-gris: #abaaaa;
+  --padding: 10px;
+  --padding-2: 15px;
+  --font-size: 1.1rem;
+  --border-grosor: 1px;
+  --border-raduis: 10px;
+}
+body {
+  background-color: var(--color-negro);
+  color: var(--color-blanco);
+  font-size: var(--font-size);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  border: solid var(--border-grosor) var(--color-blanco);
+  border-radius: var(--border-raduis);
+  padding: var(--padding);
+  gap: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.card {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border: solid var(--border-grosor) var(--color-blanco);
+  border-radius: var(--border-raduis);
+  padding: var(--padding-2);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  width: 450px;
+  height: 35px;
+  padding: var(--padding);
+}
+.boton {
+  width: 200px;
+  height: 40px;
+}
+.boton:hover {
+  background-color: var(--color-gris);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CRUD</title>
+</head>
+
+<body>
+  <main class="cards" id="root">
+    <h2 class="cards__title">Registro</h2>
+    <form action="" id="form" class="form">
+      <div class="card">
+        <label for="nom">Nombre</label>
+        <input type="text" name="nom" id="nom" class="input" autocomplete="off">
+      </div>
+      <div class="card">
+        <label for="apell">Apellido</label>
+        <input type="text" name="apell" id="apell" class="input" autocomplete="off">
+      </div>
+      <div class="card">
+        <label for="tipe">Tipo de documento</label>
+        <input type="text" name="tipe" id="tipe" class="input" autocomplete="off">
+      </div>
+      <div class="card">
+        <label for="dom">Documento</label>
+        <input type="number" name="dom" id="dom" class="input" autocomplete="off">
+      </div>
+      <div class="card">
+        <label for="email">Correo electronico:</label>
+        <input type="text" name="email" id="email" class="input" autocomplete="off">
+      </div>
+      <div class="card">
+        <label for="direcc">Direccion:</label>
+        <input type="text" name="direcc" id="direcc" class="input" autocomplete="off">
+      </div>
+      <button type="submit" id="boton" class="boton">ENVIAR</button>
+    </form>
+  </main>
+  <script src="app.js" type="module"></script>
+</body>
+
+</html>
